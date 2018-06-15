@@ -9,6 +9,8 @@ public class Person {
     public ArrayList<Experience> experience;
     public ArrayList<Skills> skills;
 
+    Person(){}
+
     public Person(String name, String email, ArrayList<Education> education, ArrayList<Experience> experience, ArrayList<Skills> skills) {
         this.name = name;
         this.email = email;

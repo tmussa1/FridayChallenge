@@ -6,6 +6,8 @@ public class Education {
     public String school;
     public String yearOfGraduation;
 
+    Education(){}
+
     public Education(String degreeLevel, String major, String school, String yearOfGraduation) {
         this.degreeLevel = degreeLevel;
         this.major = major;

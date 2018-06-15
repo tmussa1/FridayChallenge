@@ -9,6 +9,8 @@ public class Experience {
     public String endDate;
     public String duty1, duty2;
 
+    Experience(){}
+
     public Experience(String title, String placeOfWork, String startDate,String endDate, String duty1, String duty2) {
         this.title = title;
         this.placeOfWork = placeOfWork;
